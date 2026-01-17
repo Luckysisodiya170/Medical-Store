@@ -5,7 +5,7 @@ import {
   getMedicine,
   updateMedicine,
   deleteMedicine,
-} from "../controllers/MedicineController.js";
+} from "../controllers/medicineController.js";
 import { protectAdmin } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
